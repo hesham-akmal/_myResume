@@ -4,7 +4,7 @@ body{
 
 
 
-.grid-item{
+.projects-card{
     background: rgba(253, 253, 253, 0.726);
     padding: 5% 5%;
     border-radius: 10px;
@@ -12,7 +12,7 @@ body{
     border-color: rgba(253, 253, 253, 0.24);
     margin-top: 5%;
     color:rgb(58, 77, 88);
-    box-shadow: 5px 5px 5px #aaaaaa;
+    box-shadow: 5px 5px 5px #838080;
     
     
 }
@@ -47,9 +47,13 @@ body{
     grid-column-gap: 50px;
   }
   .grid-item {
+    border-style: solid;
+    border-color: rgba(253, 253, 253, 0.24);
     background-color: rgba(255, 255, 255, 0.596);
     box-shadow: 5px 5px 5px #ffffff44;
     padding: 5px;
+    margin-top: 5%;
+    border-radius: 10px;
     font-size: 20px;
     text-align: center;
     font-family:sans-serif;
