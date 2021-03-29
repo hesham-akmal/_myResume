@@ -6,7 +6,7 @@ body{
 
 .projects-card{
     background: rgba(253, 253, 253, 0.726);
-    padding: 5% 5%;
+    padding: 5% 5% 5% 5%;
     border-radius: 10px;
     border-style: solid;
     border-color: rgba(253, 253, 253, 0.24);
@@ -26,12 +26,14 @@ body{
     
 }
 
+.title{
+  margin-left: 5px;
+}
 .description-list {
-    margin-right: 35px;
-    background: #f2f4f6;
+
     padding: 10px;
-    font-family:sans-serif;
     font-weight: bold;
+    font-size: 20px;
   }
 
   .skills-list{
@@ -56,7 +58,16 @@ body{
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
-    font-family:sans-serif;
     font-weight: bold;
     color:rgb(45, 83, 72)
+  }
+
+  .playstore-btn{
+    background-color: rgba(203, 231, 219, 0.424);
+    display: inline-block;
+    padding:20px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgba(172, 231, 206, 0.253);
+    
   }
